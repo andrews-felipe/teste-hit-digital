@@ -1,1 +1,12 @@
-<p>sobre works!</p>
+<div class="box-body">
+    <p><b>Nome: </b>{{sobre?.nome}}</p>
+
+    <p><b>Apelido: </b>{{sobre?.apelido}}</p>
+
+    <p><b>Resumo: </b>{{sobre?.resumo}}</p>
+    <p><b>Stacks: </b>
+        <span *ngFor="let stack of sobre?.stacks">
+            {{stack}} /
+        </span>
+    </p>
+</div>

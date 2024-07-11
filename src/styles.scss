@@ -1,0 +1,141 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    background-color: #373735;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+p {
+    color: #fff;
+}
+
+.logo-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.button-default {
+    background: linear-gradient(3deg, #e05a4d 0%, #ea916b 100%);
+    border: 0;
+    border-radius: 10px;
+    padding: 5px 10px;
+    width: 200px;
+    height: 40px;
+    font-size: 10pt;
+    color: #fff;
+    box-shadow: 3px 3px 4px #00000029;
+    cursor: pointer;
+}
+
+.button-black {
+    background-color: #373735;
+    border: 0;
+    border-radius: 10px;
+    padding: 5px 10px;
+    width: 160px;
+    height: 40px;
+    font-size: 10pt;
+    color: #fff;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.1607843137);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.gray-line {
+    width: 89px;
+}
+
+.description-page {
+    margin-top: 2rem;
+
+    p {
+        margin: 5px;
+        font-size: 15pt;
+    }
+}
+
+.gray-line {
+    width: 89px;
+    border: solid 1px #707070;
+    margin: 0;
+}
+
+.orange-detail {
+    width: 20px;
+    height: 5px;
+    margin: 0;
+    background: linear-gradient(3deg, #e05a4d 0%, #ea916b 100%);
+    margin-top: -4px;
+}
+
+.box-container {
+    margin-top: 2rem;
+}
+
+.box-body {
+    width: 80%;
+    max-width: 600px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #EA916B;
+
+    p {
+        color: #fff;
+        font-size: 12pt;
+        font-weight: 300;
+    }
+}
+
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.form-group input {
+    flex: 1;
+    padding: 12px;
+    border: 0;
+    border-radius: 4px;
+    outline: none;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    min-height: 100px;
+    outline: none;
+}
+
+

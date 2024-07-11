@@ -1,1 +1,0 @@
-# teste-hit-digital

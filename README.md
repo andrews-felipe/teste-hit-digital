@@ -2,6 +2,8 @@
 
 Aplicação em angular para prova técnica para vaga de dev Angular
 
+Link https://teste-hit-digital-woad.vercel.app/
+
 ## O que foi feito
 
 - Foi usado Angular 18(versão mais atual) para comporsição.
